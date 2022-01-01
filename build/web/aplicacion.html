@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/inicio_ses.css" />
+        <link rel="stylesheet" href="css/index.css" />
+        <style>
+            #texto{
+                color: white;
+                font-size: 3vw;
+            }
+        </style>
+    </head>
+    <body>
+        <!--Barra de navegación superior-->
+        <div id="barra_superior" class="container-fluid">
+            <header id="encabezado">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-danger fixed-top">
+                    <a class="navbar-brand" href="index.html"><img src="imagenes/logo.png" alt="Logo"
+                                                                   class="d-inline-block align-text-top img-fluid" href="index.html"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item " id="log">
+                                <a class="nav-link" href="jsps/resultados.jsp" >MIS RESULTADOS</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </header>
+        </div>
+        <br><br>
+        <br>
+        <!--Actividades-->
+        <div class="container-fluid" style="background-color: black;">
+            <div class="row">
+                <div class="col-4">
+                    <img src="imagenes/figura.png" class="img-fluid" style="max-width: 100%; height: 90%;" width="350" alt="">
+                </div>
+                <div class="col-8">
+                    <div class="container-fluid text-center pt-5">
+                        <label class="mifuente-responsive" id="texto" >ELIGE UN NÚMERO</label>
+                    </div>
+                    <div class="container-fluid pt-2">
+                        <form action="">
+                            <div class="form-row pt-2">
+                                <div class="col-3">
+                                    <button class="btn btn-outline-danger btn-lg btn-responsive btn-block" type="button" id="btn1"><img src="imagenes/numeros/number1.png" alt=""></button>
+                                </div>
+                                <div class="col-3">
+                                    <button class="btn btn-outline-danger btn-lg btn-responsive btn-block" type="button" id="btn2"><img src="imagenes/numeros/number2.png" alt=""></button>
+                                </div>
+                                <div class="col-3">
+                                    <button class="btn btn-outline-danger btn-lg btn-responsive btn-block" type="button" id="btn3"><img src="imagenes/numeros/number3.png" alt=""></button>
+                                </div>
+                                <div class="col-3">
+                                    <button class="btn btn-outline-danger btn-lg btn-responsive btn-block" type="button" id="btn4"><img src="imagenes/numeros/number4.png" alt=""></button>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="form-row pt-2">
+                                <div class="col-3">
+                                    <button class="btn btn-outline-danger btn-lg btn-responsive btn-block" type="button" id="btn5"><img src="imagenes/numeros/number5.png" alt=""></button>
+                                </div>
+                                <div class="col-3">
+                                    <button class="btn btn-outline-danger btn-lg btn-responsive btn-block" type="button" id="btn6"><img src="imagenes/numeros/number6.png" alt=""></button>
+                                </div>
+                                <div class="col-3">
+                                    <button class="btn btn-outline-danger btn-lg btn-responsive btn-block" type="button" id="btn7"><img src="imagenes/numeros/number7.png" alt=""></button>
+                                </div>
+                                <div class="col-3">
+                                    <button class="btn btn-outline-danger btn-lg btn-responsive btn-block" type="button" id="btn8"><img src="imagenes/numeros/number8.png" alt=""></button>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="form-row pt-2">
+                                <div class="col-3">
+                                    <button class="btn btn-outline-danger btn-lg btn-responsive btn-block" type="button" id="btn9"><img src="imagenes/numeros/number9.png" alt=""></button>
+                                </div>
+                                <div class="col-3">
+                                    <button class="btn btn-outline-danger btn-lg btn-responsive btn-block" type="button" id="btn10"><img src="imagenes/numeros/number10.png" alt=""></button>
+                                </div>
+                                <div class="col-3">
+                                    <button class="btn btn-outline-danger btn-lg btn-responsive btn-block" type="button" id="btn11"><img src="imagenes/numeros/number11.png" alt=""></button>
+                                </div>
+                                <div class="col-3">
+                                    <button class="btn btn-outline-danger btn-lg btn-responsive btn-block" type="button" id="btn12"><img src="imagenes/numeros/number12.png" alt=""></button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="js/jquery.js"></script>
+        <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/log.js"></script>
+    </body>
+</html>
